@@ -1,0 +1,73 @@
+:root{
+    --color--corazon: #ff5873;
+    --colo--hover: #C1275C;
+    --backgound-color: #ebc8c0;
+    --blanco: #fff;
+    --negro: #000;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: var(--backgound-color);
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: var(--negro);
+    background-image:url('../imagenes/corazonesPeques.png') ;
+    background-size: 50%;
+}
+.tarjeta{
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.titulo{
+    font-size: 24px;
+    margin-top: 0;
+}
+.corazon{
+    width: 200px;
+    height: 200px;
+    position:relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.boton{
+    background-color: var(--color--corazon);
+    color: var(--blanco);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+}
+.botob.botonNo{
+    background-color: var(--blanco);
+    color: var(--color--corazon);
+    border: 1px solid var(--color--corazon);
+}
+.boton.botonError{
+    width: 100%;
+    display: none;
+}
+.texto{
+    font-size: 25px;
+    margin-top: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.imgFluida{
+    width: 200%;
+    height: 150%
+}
