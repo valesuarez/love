@@ -1,13 +1,13 @@
 const alternativas=[
-    {texto:"", imagen:"imagenes/1.gif"},
-    {texto:"TE PROMETO QUE NO TE ARREPENTIRAS", imagen:"imagenes/arrepentir.gif"},
-    {texto:"PIENSALO DE NUEVO", imagen:"imagenes/piensalo.gif"},
-    {texto:"VAMOS, ATREVETE A DECIR QUE SI", imagen:"imagenes/atrevete.gif"},
-    {texto:"QUE EL MIEDO NO TE DENTENGA", imagen:"imagenes/ultima.gif"},
+    {texto:"", imagen:"../imagenes/1.gif"},
+    {texto:"TE PROMETO QUE NO TE ARREPENTIRAS", imagen:"../imagenes/arrepentir.gif"},
+    {texto:"PIENSALO DE NUEVO", imagen:"../imagenes/piensalo.gif"},
+    {texto:"VAMOS, ATREVETE A DECIR QUE SI", imagen:"../imagenes/atrevete.gif"},
+    {texto:"QUE EL MIEDO NO TE DENTENGA", imagen:"../imagenes/ultima.gif"},
 
 ];
 
-const dijoQueSi = {texto:"SABIA QUE ACEPTARIAS", imagen:"imagenes/si.gif"}
+const dijoQueSi = {texto:"SABIA QUE ACEPTARIAS", imagen:"../imagenes/si.gif"}
 const titulo =document.querySelector('.titulo')
 const texto =document.querySelector('.texto')
 const nena =document.querySelector('.nena')
